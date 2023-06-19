@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/contador.js" asyn defer></script>
+    <link rel="stylesheet" href="/style/contador.css">
+    <title>Contador</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Contador</h1>
+  
+        <div class="counter">
+          <button class="btn" onclick="decrement()">-</button>
+          <span id="count">0</span>
+          <button class="btn" onclick="increment()">+</button>
+        </div>
+        
+        <h1>Temporizador</h1>
+        
+        <div class="timer">
+          <input type="number" id="inputTime" placeholder=" ඞ Segundos ඞ">
+          <button class="btn" onclick="startTimer()">Iniciar</button>
+          <div id="timerDisplay">00:00</div>
+        </div>
+    </div>
+</body>
+</html>
